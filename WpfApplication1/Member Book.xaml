@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApplication1.Member_Book"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Member_Book" Height="300" Width="500">
+    <Grid Margin="0,0,-627.4,-217.6">
+        <Grid x:Name="Dashborad2" HorizontalAlignment="Left" Height="262" VerticalAlignment="Top" Width="90" Background="#FFF1F1F1"/>
+        <Button x:Name="btn_books_list_member" Content="Books" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="90" Background="#FFF1F1F1" Foreground="Black" BorderBrush="#FFF1F1F1" FontFamily="Arial " Cursor="Hand" Click="btn_books_Click" OpacityMask="#FF0C84FE" Height="18"/>
+        <DataGrid x:Name="dg_book_member" HorizontalAlignment="Left" Margin="95,0,0,0" VerticalAlignment="Top" Height="211" Width="390"/>
+
+    </Grid>
+</Window>

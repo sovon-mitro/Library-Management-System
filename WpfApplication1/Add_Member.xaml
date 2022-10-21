@@ -1,0 +1,33 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        xmlns:Properties="clr-namespace:WpfApplication1.Properties" x:Class="WpfApplication1.Add_Member"
+        mc:Ignorable="d"
+        Title="Add_Member" Height="1272" Width="1948">
+    <Grid Margin="0,0,-44,16">
+        <Grid HorizontalAlignment="Left" Height="1080" VerticalAlignment="Top" Width="1933" Background="White">
+            <TextBlock x:Name="textBlock_Add_New_Member" HorizontalAlignment="Left" Margin="299,10,0,0" TextWrapping="Wrap" Text="Sign Up" VerticalAlignment="Top" RenderTransformOrigin="-2.418,-18.312" Height="47" Width="576" FontSize="24" FontFamily="Arial Black"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="858,94,0,0" TextWrapping="Wrap" Text="Member Name*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_member_name" HorizontalAlignment="Left" Height="31" Margin="858,133,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="858,94,0,0" TextWrapping="Wrap" Text="Member Name*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_member_name_Copy" HorizontalAlignment="Left" Height="31" Margin="858,133,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBlock x:Name="textBlock_Member_Name" HorizontalAlignment="Left" Margin="858,94,0,0" TextWrapping="Wrap" Text="Member Name*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_membername" HorizontalAlignment="Left" Height="31" Margin="858,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBlock x:Name="textBlock_ID" HorizontalAlignment="Left" Margin="858,204,0,0" TextWrapping="Wrap" Text="Password*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_password" HorizontalAlignment="Left" Height="32" Margin="858,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBlock x:Name="textBlock_dept" HorizontalAlignment="Left" Margin="426,457,0,0" TextWrapping="Wrap" Text="Department*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_email" HorizontalAlignment="Left" Height="32" Margin="426,598,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBlock x:Name="textBlock_email" HorizontalAlignment="Left" Margin="426,559,0,0" TextWrapping="Wrap" Text="Email*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBlock x:Name="textBlock_address" HorizontalAlignment="Left" Margin="1264,457,0,0" TextWrapping="Wrap" Text="Address*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_date" HorizontalAlignment="Left" Height="32" Margin="1264,598,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBlock x:Name="textBlock_date" HorizontalAlignment="Left" Margin="1264,559,0,0" TextWrapping="Wrap" Text="Date*" VerticalAlignment="Top" Width="212" Height="34" FontFamily="Arial Black " FontSize="20"/>
+            <TextBox x:Name="Txb_address" HorizontalAlignment="Left" Height="32" Margin="1264,496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+            <TextBox x:Name="Txb_dept" HorizontalAlignment="Left" Height="32" Margin="426,496,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="398" FontFamily="Arial" FontSize="20" Background="#FFEAEAF4" BorderBrush="#FFE8EBF4"/>
+        </Grid>
+        <Button x:Name="bt_Admin" Content="Sign Up" HorizontalAlignment="Left" Margin="973,675,0,0" VerticalAlignment="Top" Width="139" Height="52" FontFamily="Arial Black" Background="WhiteSmoke" BorderBrush="#FF20C20E" FontSize="20" Foreground="#FF0D83FD" Click="bt_signup_click"/>
+
+    </Grid>
+</Window>
